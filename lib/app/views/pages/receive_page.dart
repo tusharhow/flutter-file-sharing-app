@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../../components/linear_progress_indicator_widget.dart';
 import '../../components/progress_widget.dart';
 import '../../constants.dart';
-import '../../dummyData/dummy_data.dart';
 
 class ReceivePage extends StatelessWidget {
   const ReceivePage({Key? key}) : super(key: key);
@@ -306,6 +305,7 @@ class ReceivePage extends StatelessWidget {
                 ],
               ),
             ),
+           
             const SizedBox(
               height: kDefaultPadding * 7,
             ),
